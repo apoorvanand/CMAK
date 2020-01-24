@@ -14,4 +14,4 @@ jobs:
       with:
         java-version: 1.8
     - name: build
-      run: sbt clean build
+      run: sbt clean dist
